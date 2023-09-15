@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 7px;
+    justify-content: space-between;
+    height: 7vw;
+    width: 100vw;
+    background-color: #d88537;
+    position: fixed;
+    z-index: 10;
+}
+.logo{
+    padding-left: 2vw;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: monospace, sans-serif;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li{
+    margin-right: 2vw;
+    padding: 0 4px;
+    font-size: 18px;
+}
+.list li:hover{
+    background-color: rgb(218, 225, 151);
+    border-radius: 4px;
+}
+.list img{
+    height: 1.2em;
+}
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    padding-right: 4vw;
+    display: none;
+}
+#click {
+    display: none;
+}
+.background-img{
+    width: 100%;
+    height: 100px;
+}
+.backimg{
+    width: 100%;
+    position: absolute;
+    top: 4vw;
+    box-shadow: 1px 1px 5px rgb(167, 167, 167);
+}
+.divbox{
+    width: 70vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    top: 55vw;
+    left: 15vw;
+    font-family: Raleway;
+    box-shadow: 1px 1px 5px rgb(114, 114, 114);
+}
+.line1{
+    text-align: center;
+    text-decoration: solid rgb(0, 204, 255) underline;
+    text-decoration-thickness: 2px;
+    font-size: 2.5vw;
+    line-height: 25px;
+}
+.line2{
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4vw;
+}
+.mainimg{
+    position: absolute;
+    top: 76vw;
+    left: 30vw;
+}
+.main-image{
+    width: 42vw;
+    box-shadow: 2px 2px 10px rgb(92, 92, 92);
+}
+.paragraph1{
+    width: 43vw;
+    height: auto;
+    position: absolute;
+    top: 115vw;
+    left: 5vw;
+    font-family: Jost;
+    font-weight: 800;
+}
+.paragraph2{
+    width: 43vw;
+    height: auto;
+    position: absolute;
+    top: 115vw;
+    right: 5vw;
+    font-family: Jost;
+    font-weight: 800;
+}
+
+.ingredients{
+    width: 30vw;
+    height: auto;
+}
+.ing-heading{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 6vw;
+    line-height: 12vw;
+}
+.ing-line{
+    line-height: 3.5vw;
+    font-size: 2vw;
+}
+.procedure{
+    width: 45vw;
+}
+.pro-heading{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 6.5vw;
+    line-height: 11.5vw;
+}
+.pro-small-heading{
+    text-decoration: dotted underline;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 6vw;
+}
+.pro-text{
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+.foot{
+    position: absolute;
+    top: 760vw;
+    width: 100%;
+}
+.tile{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    padding: 5vw 10vw;
+    z-index: 3;
+}
+.left{
+    width: 50vw;
+}
+.left .social h5{
+    color: #5d50b8;
+    font-size: 2.3vw;
+    padding-bottom: 1vw;
+}
+.left .social img{
+    border: 4px solid black;
+    background:linear-gradient(blue,#0f1c67);
+    border-radius: 2em;
+    margin-right: 14px;
+    height: 2.5em;
+}
+.right{
+    width: 50vw;
+    text-align: right;
+}
+.right .getit img{
+    height: 3em;
+    width: 9em;
+    margin: 0 0 3vw 2vw;
+}
+
+.right .links{
+    list-style: none;
+}
+
+.right .links li{
+    padding-top: 1vw;
+    font-size: 1.2vw;
+}
+
+.right .links a{
+    color: rgb(205, 18, 140);
+}
+
+.rights{
+    text-align: center;
+    background-color: black;
+    color: rgb(108 108 108);
+    padding: 1vw 0;
+    font-size: 1.5vw;
+    margin: 0;
+}
+.video{
+    position: absolute;
+    top: 700vw;
+    
+}
+@media only screen and (min-width: 600px){
+    .video{
+        position: absolute;
+        top: 620vw;
+        left: 5vw;
+    }
+    .foot{
+        position: absolute;
+        top: 680vw;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 750px){
+    .video{
+        position: absolute;
+        top: 460vw;
+        left: 17vw;
+    }
+    .foot{
+        position: absolute;
+        top: 510vw;
+        width: 100%;
+    }
+    
+    .line1{
+        font-size: 3.5vw;
+        line-height: 30px;
+    }
+    .line2{
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 5vw;
+    }
+    .ing-heading{
+        font-size: 5vw;
+        line-height: 12vw;
+    }
+    .ing-line{
+        line-height: 3.5vw;
+        font-size: 2vw;
+    }
+    .pro-heading{
+        font-size: 5vw;
+        line-height: 11.5vw;
+    }
+    .pro-small-heading{
+        text-decoration: dotted underline;
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+    .pro-text{
+        font-size: 2vw;
+    }
+}
+@media only screen and (min-width: 900px){
+    .video{
+        position: absolute;
+        top: 390vw;
+        left: 20vw;
+    }
+    .foot{
+        position: absolute;
+        top: 430vw;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .video{
+        position: absolute;
+        top: 335vw;
+        left: 26vw;
+    }
+    .foot{
+        position: absolute;
+        top: 370vw;
+        width: 100%;
+    }
+    header{
+        height: 6vw;
+    }
+    .line1{
+        font-size: 3.5vw;
+        line-height: 40px;
+    }
+    .line2{
+        line-height: 60px;
+        font-weight: 700;
+        font-size: 5vw;
+    }
+    .ing-heading{
+        font-size: 4vw;
+        line-height: 12vw;
+    }
+    .ing-line{
+        line-height: 3vw;
+        font-size: 1.5vw;
+    }
+    .pro-heading{
+        font-size: 5vw;
+        line-height: 11.5vw;
+    }
+    .pro-small-heading{
+        text-decoration: dotted underline;
+        font-size: 2.5vw;
+        line-height: 6vw;
+    }
+    .pro-text{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .video{
+        position: absolute;
+        top: 300vw;
+        left: 30vw;
+    }
+    .foot{
+        position: absolute;
+        top: 330vw;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    .video{
+        position: absolute;
+        top: 272vw;
+        left: 33vw;
+    }
+    .foot{
+        position: absolute;
+        top: 300vw;
+        width: 100%;
+    }
+    header{
+        height: 5vw;
+    }
+    .line1{
+        font-size: 3.5vw;
+        line-height: 65px;
+    }
+    .line2{
+        line-height: 80px;
+        font-weight: 700;
+        font-size: 5vw;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .video{
+        position: absolute;
+        top: 260vw;
+        left: 35vw;
+    }
+    .foot{
+        position: absolute;
+        top: 285vw;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1800px){
+    .video{
+        position: absolute;
+        top: 250vw;
+        left: 36vw;
+    }
+    .foot{
+        position: absolute;
+        top: 270vw;
+        width: 100%;
+    }
+    header{
+        height: 4vw;
+    }
+    .line1{
+        font-size: 3.5vw;
+        line-height: 75px;
+    }
+    .line2{
+        line-height: 100px;
+        font-weight: 700;
+        font-size: 5vw;
+    }
+}
+

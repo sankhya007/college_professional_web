@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.video-div{
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 7px;
+    justify-content: space-between;
+    height: 5vw;
+    width: 100vw;
+    background-color: #d88537;
+    position: fixed;
+    z-index: 10;
+}
+.logo{
+    padding-left: 2vw;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: monospace, sans-serif;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li{
+    margin-right: 2vw;
+    padding: 0 4px;
+    font-size: 18px;
+}
+.list li:hover{
+    background-color: rgb(218, 225, 151);
+    border-radius: 4px;
+}
+.list img{
+    height: 1.2em;
+}
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    padding-right: 4vw;
+    display: none;
+}
+#click {
+    display: none;
+}
+.layer1{
+    position: absolute;
+    top: 3vw;
+    left: 5vw;
+}
+.layer2{
+    position: absolute;
+    top: 10.5vw;
+    right: 5vw;
+}
+.layer3{
+    position: absolute;
+    top: 32vw;
+    left: 5vw;
+}
+.vertical{
+    width: 35vw;
+}
+.horizontal{
+    width: 48vw;
+}
+.heading_1{
+    color: #333333;
+    padding-top: 10vw;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    width: 30vw;
+    height: 10vh;
+    font-family: Montserrat,quicksand;
+}
+.circle-text1,.circle-text2,.circle-text3{
+    color: #fff;
+}
+.back-div{
+    width: 100%;
+    height: 68vw;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.back-vid{
+    width: 120%;
+}
+.written-background{
+    width: 100%;
+    height: 128vw;
+    position: absolute;
+    top: 66.5vw;
+    background-color: #fae5a1;
+    z-index: 1;
+    box-shadow: 1px 1px 15px inset;
+}
+.ingredients{
+    z-index: 5;
+    position: absolute;
+    top: 68vw;
+    left: 7vw;
+    font-family: monospace;
+    font-style: italic;
+    height: 60vw;
+    width: 40vw;
+}
+.heading{
+    line-height: 12vw;
+}
+.mainimg{
+    position: absolute;
+    top: 72.5vw;
+    right: 10vw;
+    z-index: 2;
+}
+.burger-img{
+    width: 34vw;
+}
+.desceription{
+    z-index: 3;
+    position: absolute;
+    top: 104vw;
+    right: 5vw;
+    height: 5vw;
+    width: 45vw;
+    font-family: monospace;
+}
+.youtube{
+    position: absolute;
+    top: 135vw;
+    left: 5px;
+    z-index: 2;
+}
+/* footer css */
+.foot{
+    position: absolute;
+    top: 194.5vw;
+    width: 100%;
+}
+.tile{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    padding: 5vw 10vw;
+    z-index: 3;
+}
+
+.left{
+    width: 50vw;
+}
+
+.left .social h5{
+    color: #5d50b8;
+    font-size: 2.3vw;
+    padding-bottom: 1vw;
+}
+.left .social img{
+    border: 4px solid black;
+    background:linear-gradient(blue,#0f1c67);
+    border-radius: 2em;
+    margin-right: 14px;
+    height: 2.5em;
+}
+
+.right{
+    width: 50vw;
+    text-align: right;
+}
+
+.right .getit img{
+    height: 3em;
+    width: 9em;
+    margin: 0 0 3vw 2vw;
+}
+
+.right .links{
+    list-style: none;
+}
+
+.right .links li{
+    padding-top: 1vw;
+    font-size: 1.2vw;
+}
+
+.right .links a{
+    color: rgb(205, 18, 140);
+}
+
+.rights{
+    text-align: center;
+    background-color: black;
+    color: rgb(108 108 108);
+    padding: 1vw 0;
+    font-size: 1.5vw;
+    margin: 0;
+}
+@media only screen and (min-width: 750px){
+    .ingredients{
+        font-family: monospace;
+        font-style: italic;
+        height: 60vw;
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .heading{
+        line-height: 15vw;
+        font-size: 3rem;
+    }
+    .mainimg{
+        position: absolute;
+        top: 72.5vw;
+        right: 10vw;
+        z-index: 2;
+    }
+    .burger-img{
+        width: 38vw;
+    }
+    .desceription{
+        z-index: 3;
+        position: absolute;
+        top: 107vw;
+        right: 5vw;
+        height: 8vw;
+        width: 45vw;
+        font-family: monospace;
+        font-size: 1rem;
+    }
+    .youtube{
+        position: absolute;
+        top: 135vw;
+        left: 15vw;
+        z-index: 2;
+    }
+    .written-background{
+        height: 120vw;
+    }
+    .foot{
+        position: absolute;
+        top: 185vw;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .heading_1{
+        font-size: 3.5rem;
+    }
+    .circle1{
+        position: absolute;
+        top: 10.5vw;
+        left: 47vw;
+        width: 6vw;
+        height: 6vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle2{
+        position: absolute;
+        top: 17vw;
+        left: 47vw;
+        width: 6vw;
+        height: 6vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle3{
+        position: absolute;
+        top: 23.5vw;
+        left: 47vw;
+        width: 6vw;
+        height: 6vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle-text1,.circle-text2,.circle-text3{
+        position: absolute;
+        top: 1.5vw;
+        left: 1vw;
+        font-weight: 400;
+        font-size: small;
+        font-style: italic;
+        font-family: quicksand,Montserrat;
+        color: #fff;
+    }
+    .ingredients{
+        font-family: monospace;
+        font-style: italic;
+        height: 60vw;
+        width: 40vw;
+        font-size: 22px;
+    }
+    .heading{
+        line-height: 15vw;
+        font-size: 3.5rem;
+    }
+    .mainimg{
+        position: absolute;
+        top: 78vw;
+        right: 6vw;
+        z-index: 2;
+    }
+    .burger-img{
+        width: 42vw;
+    }
+    .desceription{
+        z-index: 3;
+        position: absolute;
+        top: 115vw;
+        right: 5vw;
+        height: 8vw;
+        width: 45vw;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    .youtube{
+        position: absolute;
+        top: 142vw;
+        left: 20vw;
+        z-index: 2;
+        width: 560;
+        height: 315;
+    }
+    .written-background{
+        height: 117vw;
+    }
+    .foot{
+        position: absolute;
+        top: 182vw;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1150px){
+    .ingredients{
+        height: 60vw;
+        width: 40vw;
+        font-size: 28px;
+    }
+    .heading{
+        line-height: 15vw;
+        font-size: 4.4rem;
+    }
+    .mainimg{
+        position: absolute;
+        top: 72.5vw;
+        right: 6.5vw;
+        z-index: 2;
+    }
+    .burger-img{
+        width: 45vw;
+    }
+    .desceription{
+        position: absolute;
+        top: 113.5vw;
+        right: 5vw;
+        height: 8vw;
+        width: 45vw;
+        font-family: monospace;
+        font-size: 23px;
+    }
+    .youtube{
+        position: absolute;
+        top: 140vw;
+        left: 27vw;
+        z-index: 2;
+    }
+    .written-background{
+        height: 110vw;
+    }
+    .foot{
+        position: absolute;
+        top: 175vw;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1420px){
+    .heading_1{
+        font-size: 6rem;
+    }
+    .layer1{
+        position: absolute;
+        top: 8vw;
+        left: 8.5vw;
+    }
+    .layer2{
+        position: absolute;
+        top: 10vw;
+        right: 9vw;
+    }
+    .vertical{
+        width: 30vw;
+    }
+    .horizontal{
+        display: none;
+    }
+    .circle1{
+        position: absolute;
+        top: 36vw;
+        left: 8vw;
+        width: 7vw;
+        height: 7vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle2{
+        position: absolute;
+        top: 36vw;
+        left: 18vw;
+        width: 7vw;
+        height: 7vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle3{
+        position: absolute;
+        top: 36vw;
+        left: 28vw;
+        width: 7vw;
+        height: 7vw;
+        background-image: url("https://www.xtrafondos.com/en/descargar.php?id=7932&resolucion=3840x2400");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .circle-text1,.circle-text2,.circle-text3{
+        position: absolute;
+        top: 3vw;
+        left: 1vw;
+        font-style: italic;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .back-div{
+        width: 100%;
+        height: 61vw;
+        position: absolute;
+        background-color: aqua;
+    }
+    .written-background{
+        position: absolute;
+        top: 60vw;
+    }
+    .mainimg{
+        position: absolute;
+        top: 75vw;
+        right: 5vw;
+        z-index: 2;
+    }
+    .burger-img{
+        width: 48vw;
+    }
+    .desceription{
+        position: absolute;
+        top: 120vw;
+        left: 15vw;
+        height: 8vw;
+        width: 72vw;
+        font-family: monospace;
+        font-size: 23px;
+    }
+    .youtube{
+        position: absolute;
+        top: 128vw;
+        left: 35vw;
+        z-index: 2;
+    }
+    .written-background{
+        height: 95vw;
+    }
+    .foot{
+        position: absolute;
+        top: 155vw;
+        width: 100%;
+    }
+}
+
